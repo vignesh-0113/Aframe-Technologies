@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(port.jpeg);
+    background-size: cover;
+}
+.contact{
+    padding: 20px;
+    margin-top: 10px;
+}
+.contact ul{
+    padding: 20px;
+   
+}
+.contact li{
+    padding: 10px;
+    font-weight: bold;
+}
+.wrapper img{
+    height: 10%;
+    width: 25%;
+    margin-left: 60%;
+    border-radius: 20px;   
+}
+.socialmedia{
+    margin-top: -30%;
+    padding: 20px;
+}
+.socialmedia button img{
+    width: 70px;
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width:600px)
+{
+    body{
+        background-image: url("background.jpg");
+        
+    }
+    .contact{
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .contact ul{
+        padding: 20px;
+       
+    }
+    .contact li{
+        padding: 10px;
+        font-weight: bold;
+    }
+    .contact li span{
+        display: flex;
+    }
+    .wrapper img{
+        height: 30%;
+        width: 30%;
+        margin-left: 60%;
+        border-radius: 20px;
+        margin-top: 10%;   
+    }
+    .socialmedia{
+        margin-top: -30%;
+        padding: 20px;
+    }
+    .socialmedia button img{
+        width: 50px;
+        border-radius: 20px;
+        
+    }
+}
+
